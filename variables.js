@@ -9,8 +9,11 @@ console.log(num);
 const pi = 3.14;
 // pi = 33; // not allowed.
 console.log(pi);
-
+/// ****************************************************
 let accountId = 12321;
 let accountName = 'Maghan';
 let accountEmail = 'dasmaghan@gmail.com';
 console.table([accountId, accountEmail, accountName]);
+// *******************************************************
+let name;
+console.log(name); // will have undefined value...
