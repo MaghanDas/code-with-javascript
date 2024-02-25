@@ -7,5 +7,10 @@ console.log(num);
 
 // using const-- const is used with values which can't be modified further 
 const pi = 3.14;
-// pi = 33; // will give error 
+// pi = 33; // not allowed.
 console.log(pi);
+
+let accountId = 12321;
+let accountName = 'Maghan';
+let accountEmail = 'dasmaghan@gmail.com';
+console.table([accountId, accountEmail, accountName]);
