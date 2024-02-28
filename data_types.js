@@ -7,10 +7,10 @@
 // null => standalone value
 // undefined =>
 // symbol =>
-
+// ****************************************************************
 // type of undefined is undefined.
 // type of null is Object
-
+// ****************************************************************
 let name = "Maghan";
 let number = 18;
 let hasGithubAcc = true;
