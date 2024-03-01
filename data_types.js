@@ -18,3 +18,5 @@ let username = null;
 let email;
 
 console.table([typeof name, typeof number, typeof hasGithubAcc,  typeof username, typeof email]);
+
+
