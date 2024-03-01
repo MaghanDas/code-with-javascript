@@ -3,7 +3,7 @@
 // String   -- let name  = "Maghan";    
 //  number => 2 to power to 53
 // bigint
-// boolean => true or false 
+// boolean => true or false .
 // null => standalone value
 // undefined =>
 // symbol =>
