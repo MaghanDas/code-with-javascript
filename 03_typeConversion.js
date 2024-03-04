@@ -15,5 +15,12 @@ console.log(valueInNumber);
 // 1 to true, 0 to false
 // {} to false, "string" to true.
 
+// console.log("2" + 1); // 21
+// console.log(1 + "2");  // 12
+// console.log("1" + 2 + 2 );
+// console.log(1 +2 + "2");
+
+console.log(true);  // true
+console.log(+true); // 1
 
 
