@@ -14,6 +14,17 @@ const id = Symbol('123');
 // non-primitive datatypes or reference type::
 // Arrays, Objects, Functions...
 
-// js is static typed language.
+ const heros = ["ironMan" , "SpiderMan" , "Thor"];
 
-// 
+ let myObj = {
+    name:"Maghan",
+    age:20,
+ }
+
+ const muFunction = function() {
+      console.log("hyee :)");
+ }
+// js is static typed language.
+console.log(typeof myObj); 
+console.log(typeof heros);
+console.log(typeof muFunction); // function..
