@@ -2,10 +2,10 @@
 // let value = null;
 let value = "22";
 
-console.log(typeof value);
-let valueInNumber = Number(value);
-console.log(typeof valueInNumber);
-console.log(valueInNumber);
+// console.log(typeof value);
+// let valueInNumber = Number(value);
+// console.log(typeof valueInNumber);
+// console.log(valueInNumber);
 
 // "33" to 33
 // "33abc" to NaN
@@ -20,7 +20,17 @@ console.log(valueInNumber);
 // console.log("1" + 2 + 2 );
 // console.log(1 +2 + "2");
 
-console.log(true);  // true
-console.log(+true); // 1
+// console.log(true);  // true
+// console.log(+true); // 1
+
+// console.log(null > 0);  // false
+// console.log(null == 0); // false 
+// console.log(null >= 0); // true-> 
+
+// === strict check -> checks dataypes & value itself!
+// console.log("2" === 2);
+
+
+
 
 
