@@ -24,6 +24,7 @@ const id = Symbol('123');
  const muFunction = function() {
       console.log("hyee :)");
  }
+
 // js is static typed language.
 console.log(typeof myObj);  // object
 console.log(typeof heros);  // object
