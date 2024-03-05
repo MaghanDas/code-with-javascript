@@ -25,6 +25,6 @@ const id = Symbol('123');
       console.log("hyee :)");
  }
 // js is static typed language.
-console.log(typeof myObj); 
-console.log(typeof heros);
+console.log(typeof myObj);  // object
+console.log(typeof heros);  // object
 console.log(typeof muFunction); // function..
