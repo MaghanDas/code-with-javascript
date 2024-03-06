@@ -29,3 +29,9 @@ const id = Symbol('123');
 console.log(typeof myObj);  // object
 console.log(typeof heros);  // object
 console.log(typeof muFunction); // function..
+
+
+// *****************************************************
+// memory- stack vs heap
+// permtive types uses stack memory,  we get copy of the data.
+// non-primitve uses heap memory/ // we get reference of the original data.
