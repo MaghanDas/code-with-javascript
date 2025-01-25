@@ -5,7 +5,7 @@
 // bigint
 // boolean => true or false .
 // null => standalone value
-// undefined =>
+// undefined => it means value is not given yet..!!
 // symbol =>
 // ****************************************************************
 // type of undefined is undefined.
@@ -19,4 +19,5 @@ let email;
 
 console.table([typeof name, typeof number, typeof hasGithubAcc,  typeof username, typeof email]);
 
+console.log(typeof undefined) // undefined..
 

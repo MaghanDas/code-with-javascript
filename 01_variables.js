@@ -17,3 +17,15 @@ console.table([accountId, accountEmail, accountName]);
 // *******************************************************
 let name;
 console.log(name); // will have undefined value...
+
+
+
+
+
+
+
+
+
+
+
+
