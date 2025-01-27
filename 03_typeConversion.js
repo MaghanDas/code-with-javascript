@@ -1,5 +1,6 @@
 // let value = undefined;
 // let value = null;
+
 let value = "22";
 
 // console.log(typeof value);
@@ -7,8 +8,8 @@ let value = "22";
 // console.log(typeof valueInNumber);
 // console.log(valueInNumber);
 
-// "33" to 33
-// "33abc" to NaN
+// "53" to 53
+// "53abc" to NaN (type is number)
 // true to 1; false => 0
 
 // for conversion of Boolean.
@@ -17,8 +18,9 @@ let value = "22";
 
 // console.log("2" + 1); // 21
 // console.log(1 + "2");  // 12
-// console.log("1" + 2 + 2 );
-// console.log(1 +2 + "2");
+// console.log("1" + 2 + 2 ); //122
+// console.log(1 + 2 + "2"); // 32
+
 
 // console.log(true);  // true
 // console.log(+true); // 1
@@ -29,8 +31,5 @@ let value = "22";
 
 // === strict check -> checks dataypes & value itself!
 // console.log("2" === 2);
-
-
-
 
 
