@@ -30,4 +30,33 @@ function isLoggedIn(name){
 // console.log(isLoggedIn()); // undefined..
 // console.log(isLoggedIn("das"));
 
+function calculatePriceWithRestOperator(...num){
+    return num;
+}
+
+function calculatePriceWithRestOperator2(num1,num2, ...num){
+    return num;
+}
+
+// console.log(calculatePriceWithRestOperator(200,300,400,500)); // will become an array..[ 200, 300, 400, 500 ]
+// console.log(calculatePriceWithRestOperator2(200,300,400,500)); // [ 400, 500 ]
+
+// handling objects in functions..
+
+const user = {
+    username: "name",
+    password: "passwd"
+}
+function handleOBjects(anyObject) {
+    console.log(`username: ${anyObject.username}, passwd is ${anyObject.passwd}`)
+}   
+
+// handleOBjects(user); // username: name
+// another way to pass an object to function!!!
+handleOBjects({
+    username: "Das",
+    passwd: "01xwv"
+})
+
+
 
