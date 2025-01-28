@@ -29,4 +29,13 @@ const student3 = {5: "a", 6: "b"}
 
 const group = Object.assign({}, student1,student2,student3); // combines.. like merging all into {}, knowns as target object.
 
-console.log(group)
+// console.log(group);
+
+const group2 = {...student1, ...student2} // with spread operator 
+console.log(group2)
+
+console.log(Object.keys(student)); // [ 'id', 'name', 'isProgrammer' ]
+console.log(Object.values(student)); // [ 'CCQ946', 'Maghan', true ]
+console.log(Object.entries(student)); // [ [ 'id', 'CCQ946' ], [ 'name', 'Maghan' ], [ 'isProgrammer', true ] ]
+
+console.log(student.hasOwnProperty('isProgrammer')); // true
