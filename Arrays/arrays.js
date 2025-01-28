@@ -34,18 +34,19 @@ const newArr = nums.join();
 // console.log(newArr);
 // console.log(typeof newArr); // string
 
-// slice, splice 
+// ******  slice, splice ******** 
 
-console.log("A", nums);
+// console.log("A", nums);
 
-const sliceArr = nums.slice(1,3);
+// const sliceArr = nums.slice(1,3);
 
-console.log(sliceArr); // [1,2] i.e take from index 1 and take 3-1 total elements
-console.log("B " ,nums); // original array remains same..
+// console.log(sliceArr); // [1,2] i.e take from index 1 and take 3-1 total elements
+// console.log("B " ,nums); // original array remains same..
 
-const spliceArr = nums.splice(1,3);
+// const spliceArr = nums.splice(1,3);
 
-console.log("C ", nums);
-console.log(spliceArr); // splice starts from 1 and take total 3 elements and it removes those elements from orginal array.
+// console.log("C ", nums);
+// console.log(spliceArr); // splice starts from 1 and take total 3 elements and it removes those elements from orginal array.
 
-console.log(nums);
+// console.log(nums);
+
