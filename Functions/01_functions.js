@@ -17,4 +17,17 @@ function sum2(num1,num2) {
 // const result = sum(3,5);
 // console.log(result); // undefined...
 
-console.log(sum2(2,3)); // 5
+// console.log(sum2(2,3)); // 5
+
+function isLoggedIn(name){
+    if(!name){
+        console.log("please enter name!")
+        return;
+    }
+    return `${name} just logged in..!`
+}
+
+// console.log(isLoggedIn()); // undefined..
+// console.log(isLoggedIn("das"));
+
+
