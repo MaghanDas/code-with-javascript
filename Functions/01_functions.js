@@ -52,11 +52,20 @@ function handleOBjects(anyObject) {
 }   
 
 // handleOBjects(user); // username: name
+
 // another way to pass an object to function!!!
-handleOBjects({
-    username: "Das",
-    passwd: "01xwv"
-})
+// handleOBjects({
+//     username: "Das",
+//     passwd: "01xwv"
+// })
+
+function returnElem(arrayPar){
+    // return arrayPar.length;
+    return arrayPar[1];
+}
+
+// console.log(returnElem([0,1,2,3,4,5]))
+
 
 
 
