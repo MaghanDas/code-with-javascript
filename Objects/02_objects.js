@@ -32,10 +32,26 @@ const group = Object.assign({}, student1,student2,student3); // combines.. like 
 // console.log(group);
 
 const group2 = {...student1, ...student2} // with spread operator 
-console.log(group2)
+// console.log(group2)
 
-console.log(Object.keys(student)); // [ 'id', 'name', 'isProgrammer' ]
-console.log(Object.values(student)); // [ 'CCQ946', 'Maghan', true ]
-console.log(Object.entries(student)); // [ [ 'id', 'CCQ946' ], [ 'name', 'Maghan' ], [ 'isProgrammer', true ] ]
+// console.log(Object.keys(student)); // [ 'id', 'name', 'isProgrammer' ]
+// console.log(Object.values(student)); // [ 'CCQ946', 'Maghan', true ]
+// console.log(Object.entries(student)); // [ [ 'id', 'CCQ946' ], [ 'name', 'Maghan' ], [ 'isProgrammer', true ] ]
 
-console.log(student.hasOwnProperty('isProgrammer')); // true
+// console.log(student.hasOwnProperty('isProgrammer')); // true
+
+// ***** DeStructuring **
+
+const game = {
+    gameName: "GTA 5",
+    price: "9999",
+    developedBy: "Rockstar"
+}
+
+// game.developedBy
+// destructing....
+const {developedBy: devs} = game; 
+console.log(devs)
+
+
+
