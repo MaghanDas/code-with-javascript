@@ -21,14 +21,21 @@ const user = {
 // console.log(user.name);
 // console.log(user.email);
 // console.log(user["email"]) //treating as array..
-console.log(user["full name"]);
-console.log(user[mySym]);
+// console.log(user["full name"]);
+// console.log(user[mySym]);
  
-user.email = "maghan@ambassador.com";
-Object.freeze(user);
-user.email = "maghan@inf.elte.hu"; // won't be updates, bcus we've freezed the object.
-console.log(user); 
+// user.email = "maghan@ambassador.com";
+// Object.freeze(user);
+// user.email = "maghan@inf.elte.hu"; // won't be updates, bcus we've freezed the object.
+// console.log(user); 
 
+user.greetings = function(){
+    // console.log("Hello User : ");
+    console.log(`hello user, ${this.name}`); // this refer the current object
+}
+
+console.log(user.greetings); // functions anonyms
+console.log(user.greetings()); // hello user.(functions statements running)...
 
 
 
