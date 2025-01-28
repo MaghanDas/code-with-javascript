@@ -51,7 +51,17 @@ const game = {
 // game.developedBy
 // destructing....
 const {developedBy: devs} = game; 
-console.log(devs)
+// console.log(devs)
 
+// json..... 
 
-
+// {
+//     "name" : "maghandas",
+//     "age" : "23",
+// }
+// can be in array format..
+// [
+// {},
+// {},
+// {}
+// ]
