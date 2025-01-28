@@ -18,3 +18,8 @@ console.log(Array.isArray("string")); // false
 console.log(Array.from("string")); // makes it array..
 console.log(Array.from({name: "name"})) // important ...
 
+let marks1 = 93;
+let marks2 = 45;
+let marks3 = 50;
+
+console.log(Array.of(marks1,marks2,marks3));
