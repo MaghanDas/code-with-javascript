@@ -1,7 +1,7 @@
 "use strict" // treat all js code as newer version.
 // variables are used to store values...
 let num = 18;
-// sometime var is also used , var was used in older times.
+// sometime var is also used , var was used in older times.(difference of scope level..)
 // in modern javascript, we prefer let
 console.log(num);
 // ************************************************ *******
