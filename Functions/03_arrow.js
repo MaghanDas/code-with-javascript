@@ -48,6 +48,10 @@ const user = {
 
 // const sum = (num1,num2) => num1+num2; // impicit return.. same ouput
 
-const sum = (num1,num2) => (num1+num2); 
+// const sum = (num1,num2) => (num1+num2); 
 
-console.log(sum(3,4));
+// const sum = (num1,num2) => ({name: "maghan"})  // -> object returning
+
+// console.log(sum(3,4));
+
+
